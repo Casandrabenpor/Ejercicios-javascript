@@ -1,0 +1,45 @@
+/* nav */
+.navbar{
+   display: flex;
+   align-items: flex-start;
+   
+}
+
+
+
+
+
+/* icono nav */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+/* Table */
+table {
+    border: 1px solid coral;
+    width: 100%;
+}
+
+th {
+    
+    text-align: left;
+    padding: 8px;
+    background-color: coral;
+}
+
+td {
+    border: 1px solid coral;
+    text-align: left;
+    padding: 8px;
+
+}
