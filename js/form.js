@@ -1,20 +1,29 @@
 // Formulario
 
 (function () {
-  var updateButton = document.getElementById('updateDetails');
-  var cancelButton = document.getElementById('cancel');
-  var favDialog = document.getElementById('favDialog');
+  let updateButton = document.getElementById('updateDetails');
+  let cancelButton = document.getElementById('cancel');
+  let favDialog = document.getElementById('favDialog');
 
-  // Update button opens a modal dialog
+  // El botón Actualizar abre un cuadro de diálogo modal
   updateButton.addEventListener('click', function () {
     favDialog.showModal();
   });
 
-  // Form cancel button closes the dialog box
+  // El botón de cancelar formulario cierra el cuadro de diálogo
   cancelButton.addEventListener('click', function () {
     favDialog.close();
   });
 
 })();
 
+
+//Añadir formulario
+document.getElementById("addForm")
+  .addEventListener('click', function (e) {
+    e.preventDefault();
+
+   
+
+  })
 

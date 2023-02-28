@@ -1,23 +1,4 @@
-const entrada = [
-    {
-        titulo: "Mi primera entrada",
-        contenido: "Este es el contenido de mi primera entrada.",
-        autor: {
-            nombre: "Juan",
-            apellidos: "Pérez Martínez",
-            nickname: "juanp"
-        }
-    },
-    {
-        titulo: "Mi segunda entrada",
-        contenido: "Este es el contenido de mi segunda entrada.",
-        autor: {
-            nombre: "Laura",
-            apellidos: "García Lopez",
-            nickname: "Pérez"
-        }
-    }
-];
+
 const autores = [
     {
         nombre: "Juan",
