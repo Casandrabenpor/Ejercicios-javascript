@@ -1,4 +1,3 @@
-
 const autores = [
     {
         nombre: "Juan",

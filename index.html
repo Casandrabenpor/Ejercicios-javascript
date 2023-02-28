@@ -13,19 +13,23 @@
 </head>
 
 <body>
-    <!-- nav -->
-    <nav class="navbar">
-        <button class="navbar-toggle" onclick=" muestra_oculta('navbarNav')" id="">
-            <span class="material-symbols-outlined">
-                menu
-            </span>
-        </button>
-        <div class="nav-links" id="navbarNav">
-            <a class="link-item" href="#">Inicio</a>
-            <a class="link-item" href="#">Blog</a>
-            <a class="link-item" href="#">Contacto</a>
+    <header>
+        <h2>
+            Logo
+        </h2>
+        <!-- nav -->
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="burguer">
+            <button id="burguer-button">Burguer</button>
         </div>
-    </nav>
+
+    </header>
     <!-- MODAL FORMULARIO -->
 
 
@@ -39,36 +43,36 @@
                     <input type="text" id="autor" name="autor" placeholder="autor"><br><br>
                     <label for="lname"></label>Contenido<br>
                     <input type="text" id="contenido" name="lname" placeholder="contenido"><br><br>
-                    <input type="submit" value="Submit" id = "addForm" onclick="receive() ">
+                    <input type="submit" value="Submit" id="addForm" onclick="receive() ">
                     <input type="reset" value="Borrar" onclick="borrar()" />
 
                 </div>
             </section>
         </form>
     </dialog>
-        <br />
-        <div id="escribir"></div>
-        <!-- TABLA -->
-        <h1>Tabla</h1>
+    <br />
+    <div id="escribir"></div>
+    <!-- TABLA -->
+    <h1>Tabla</h1>
 
-        <table id="table">
-            <tr>
-                <th>Título</th>
-                <th>Autor</th>
-                <th>Contenido</th>
-            </tr>
-        </table>
-        <menu>
-            <button type="button" id="updateDetails"> Formulario</button>
-        </menu>
-
-
+    <table id="table">
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Contenido</th>
+        </tr>
+    </table>
+    <menu>
+        <button type="button" id="updateDetails"> Formulario</button>
+    </menu>
 
 
 
-        <script src="js/nav.js"></script>
-        <script src="js/form.js"></script>
-        <script src="js/obj.js"></script>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/obj.js"></script>
 </body>
 
 </html>
